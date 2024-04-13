@@ -41,6 +41,6 @@ jobs:
       - name: Install NPM dependencies
         run: npm install
       - name: Install npx playwrite browsers
-        run: npx install playwrute
+        run: npx install playwrite
       - name: Run the UI tests
         run: npm run test:ui
